@@ -1,0 +1,29 @@
+{
+    "intenciones":[
+        {
+            "etiqueta": "saludo",
+            "patrones": ["Hola","Que tal","Buenas"],
+            "respuestas": ["Hola, en que puedo ayudarle?", "Que tal, como le puedo ayudar", "Buenas, en que le puedo ayudar"]
+        },
+        {
+            "etiqueta": "pregunta_reinscripcion",
+            "patrones": ["Una duda acerca de la reinscripcion","Tengo una pregunta en cuanto a la reinscripcion", "Quiero informacion de la reinscripcion","Quiero saber cosas referentes con la reinscripción"],
+            "respuestas": ["Claro que desea saber acerca de la reinscripción", "Claro, digame como puedo orientarlo?","Que informacion le puedo brindar acerca de la reinscripción"]
+        },
+        {
+            "etiqueta": "Proceso_reinscripcion",
+            "patrones": ["Hola, quisiera saber el proceso de reinscripcion","Quiero informacion acerca del proceso de reinscripcion","Me gustaria saber acerca de las reinscripciones","Como puedo hacer el proceso?"],
+            "respuestas": ["Claro, la informacion referente a la reinscripcion la encuentras en el siguiente enlace: https://itstb.edu.mx/reinscripcion/"]            
+        },
+        {
+            "etiqueta": "Pregunta_asesoria",
+            "patrones": ["Quiero saber como realizar mi asesoria", "Informacion acerca de la asesoria","En que pagina realizo la asesoria?","Quiero saber la pagina para realizar la asesoria", "informacion acerca de la asesoria reticular"],
+            "respuestas": ["La pagina para realizar tu asesoria reticular es la siguiente: http://187.174.252.55/"]
+        },
+        {
+            "etiqueta": "Pregunta_calificacion",
+            "patrones": ["Como consulto mis calificaciones","Donde puedo consultar mis calificaciones","Quiero saber de mi calificacion","Quiero saber acerca de la boleta"],
+            "respuestas" : ["Pueden consultar sus calificaciones en el siguiente enlace: http://187.174.252.55/"]
+        }
+    ]
+}
